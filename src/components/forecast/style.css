@@ -1,0 +1,63 @@
+.forecastDays {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 5px;
+}
+.forecastday > div{
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+.forecastIcon{
+    line-height: 10px;
+}
+
+li.forecastday {
+    background: black;
+    color: white;
+    padding: 5px 15px;
+}
+
+li.forecastday.today {
+    background: #757575;
+    color: white;
+}
+
+.tempRange {
+    display: flex;
+}
+
+.weeklyForecast {
+    margin-top: 35px;
+    max-width: 765px;
+    margin: auto;
+    padding-top: 24px;
+}
+.tempRange {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width : 767px){
+
+
+    ul.forecastDays{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    li.forecastday{
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+   
+}

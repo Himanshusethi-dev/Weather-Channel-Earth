@@ -1,0 +1,57 @@
+.searchWrapper {
+    max-width: 765px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.searchForm {
+    /* max-width: 200px; */
+    margin: auto;
+    /* padding: 20px; */
+    width: 100%;
+    position: relative;
+}
+.searchForm input {
+    margin: auto;
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+
+.searchPanel {
+    background: black;
+    color: white;
+    border-top: 1px solid white;
+    padding: 9px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    width: 100%;
+    left: 0;
+   
+}
+
+.searchPanel button {
+    color: white;
+    background: black;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.searchPanel.open{
+    visibility: visible;
+    z-index: 100000;
+}
+.searchPanel.close{
+    visibility: hidden;
+}
+
+.searchPanel .loading{
+        font-size: 10px;
+}

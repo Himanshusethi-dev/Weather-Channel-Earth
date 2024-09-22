@@ -1,0 +1,45 @@
+.weatherInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 23px;
+}
+.conditionWrapper {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.weatherBox {
+    background: #1b1b1bf7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    max-width: 765px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.extraInfoContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.extraInfoTile {
+    background: #757575;
+    padding: 10px;
+    border: 1px solid #897878;
+    border-radius: 5px;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.extInfoText {
+    font-size: 13px;
+}
