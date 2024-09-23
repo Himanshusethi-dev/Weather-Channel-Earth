@@ -10,7 +10,7 @@ const ToggleTemperature = ({ converter }) => {
     return (
         <div className='toggleTemperature'>
             <button onClick={handleToggle}>
-                {isToggled ? <span>C &deg;</span> :  <span>F &deg;</span> }
+                {isToggled ? <span>F &deg;</span> :  <span>C &deg;</span> }
             </button>
         </div>
     )
