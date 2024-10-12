@@ -1,0 +1,41 @@
+.formPage {
+    text-align: center;
+    font-family: sans-serif;
+}
+.hookForm{
+    width: 500px;
+    margin: 0 auto;
+}
+.formGroup {
+    display: flex;
+    gap: 5px;
+    margin: 2px 0;
+}
+.formElements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.formGroup label{
+    min-width: 100px;
+    text-align: left;
+}
+.formGroupParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: max-content;
+    margin: auto;
+}
+.formGroupParent h3{
+    font-weight: 400;
+}
+.errorMessage {
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+

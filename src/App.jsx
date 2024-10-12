@@ -8,6 +8,7 @@ import WeatherDisplay from './components/weatherDisplay/WeatherDisplay';
 import WeatherForecast from './components/forecast/WeatherForecast';
 import SearchForm from './components/weatherSearch/SearchForm';
 import ToggleTemperature from './components/temperatureToggle/ToggleTemperature';
+import HookForm from './components/forms/HookForm';
 const temperatureUnits = {
   c : 'celcius',
   f : 'fahrenheit'
@@ -38,6 +39,7 @@ function App() {
           <ToggleTemperature  converter={changeUnit} />
           <WeatherDisplay location={location} unit={unit} />
           <WeatherForecast location={location}  unit={unit} />
+          {/* <HookForm /> */}
         </div>
 
       </div>
