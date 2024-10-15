@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 
 
-const WeatherInfo = ({ data, error, loading, unit }) => {
+const WeatherInfo = ({ data, error, loading, unit,location }) => {
 
 
     if (error) {

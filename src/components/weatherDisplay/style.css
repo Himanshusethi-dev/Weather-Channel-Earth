@@ -22,6 +22,8 @@
     max-width: 765px;
     margin: 0 auto;
     border-radius: 5px;
+    border-radius: 5px;
+    min-height: 300px;
 }
 .extraInfoContainer {
     display: flex;

@@ -3,7 +3,7 @@ import useForecastData from '../../hooks/useForecastData';
 import "./style.css";
 import ForecastDay from './ForecastDay';
 
-const WeatherForecast = ({ location, days = 5,unit }) => {
+const WeatherForecast = ({ location, days = 10,unit }) => {
   const { data } = useForecastData(location, days)
   useEffect(() => {
     console.log(data);
